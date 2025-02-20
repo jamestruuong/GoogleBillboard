@@ -3,7 +3,7 @@ public void setup()
 {
   String a;
   double b;
-  for(int i = 0; i < e.length()-10; i++){
+  for(int i = 2; i < e.length()-10; i++){
     a = e.substring(i, i+10);
     b = Double.parseDouble(a);
     if(isPrime(b) == true){
